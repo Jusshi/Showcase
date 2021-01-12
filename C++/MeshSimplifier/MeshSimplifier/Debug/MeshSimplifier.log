@@ -1,0 +1,13 @@
+﻿  Face.cpp
+  Mesh.cpp
+C:\Users\Omistaja\source\repos\MeshSimplifier\MeshSimplifier\Mesh.cpp(22,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Omistaja\source\repos\MeshSimplifier\MeshSimplifier\Mesh.cpp(165,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Omistaja\source\repos\MeshSimplifier\MeshSimplifier\Mesh.cpp(196,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Omistaja\source\repos\MeshSimplifier\MeshSimplifier\Mesh.cpp(219,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Omistaja\source\repos\MeshSimplifier\MeshSimplifier\Mesh.cpp(221,20): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Omistaja\source\repos\MeshSimplifier\MeshSimplifier\Mesh.cpp(223,20): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Omistaja\source\repos\MeshSimplifier\MeshSimplifier\Mesh.cpp(225,20): warning C4018: '>': signed/unsigned mismatch
+  Vector3.cpp
+  main.cpp
+  Generating Code...
+  MeshSimplifier.vcxproj -> C:\Users\Omistaja\source\repos\MeshSimplifier\Debug\MeshSimplifier.exe
