@@ -1,20 +1,14 @@
 package sample;
 
-import javax.sound.sampled.*;
-import java.io.File;
-import java.io.IOException;
-
 /**
  * Pelikellon määrittävä luokka.
- * @author JKukkonen
- * @version
+ * @author Jussi Kukkonen
+ * @version 1.4.2021
  */
 public class Pelikello {
     private String minuutit;
     private String sekunnit;
     private String kymmenosat;
-    private Clip audioClip;
-    private AudioInputStream audioStream;
 
     // GET-metodit
     /**
@@ -75,28 +69,6 @@ public class Pelikello {
             this.kymmenosat = "." + kym;
         }else{
             this.kymmenosat = "";
-        }
-    }
-
-    /**
-     * Soittaa summerin äänen.
-     */
-    public void summeri(){
-        File audioFile = new File("src/summeri.wav");
-        try {
-            audioStream = AudioSystem.getAudioInputStream(audioFile);
-        } catch (UnsupportedAudioFileException | IOException e) {
-            e.printStackTrace();
-        }
-        AudioFormat format = audioStream.getFormat();
-        DataLine.Info info = new DataLine.Info(Clip.class, format);
-        try {
-            audioClip = (Clip) AudioSystem.getLine(info);
-            audioClip.open(audioStream);
-            audioClip.start();
-            audioStream.close();
-        } catch (LineUnavailableException | IOException e) {
-            e.printStackTrace();
         }
     }
 
